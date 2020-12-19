@@ -1,0 +1,28 @@
+{
+  "name": "satel2mqtt",
+  "version": "1.0.0",
+  "dependecies": {
+    "mqtt": "^5.0.0"
+  },
+  "description": "Connets Satel security systems with MQTT broker",
+  "main": "satel2mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicznyblog/satel2mqtt.git"
+  },
+  "keywords": [
+    "satel",
+    "integra",
+    "security",
+    "mqtt"
+  ],
+  "author": "lukasz@blog-techniczny.pl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technicznyblog/satel2mqtt/issues"
+  },
+  "homepage": "https://github.com/technicznyblog/satel2mqtt#readme"
+}
