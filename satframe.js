@@ -68,7 +68,7 @@ function crc16(param)
   {
     crc=rl(crc);
     crc=crc ^ 0xffff & 0xffff;
-    crc=crc+(crc>>8 & 0xff)+param[w];
+    crc=(crc+(crc>>8 & 0xff)+param[w]) & 0xffff;
     if( param[w]==0xfe && param[w+1]==0xf0 ) w++;
   }
   return(crc);
